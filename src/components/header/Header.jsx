@@ -2,6 +2,8 @@ import React from 'react'
 import './header.css'
 import Cta from './Cta'
 import Myself from '../../assets/Myself.jpeg'
+import HeaderSocials from './HeaderSocials'
+
 const Header = () => {
   return (
     <header>
@@ -10,7 +12,8 @@ const Header = () => {
         <h1>Altaf Alam</h1>
         <h5 className='text-light'>Web Developer</h5>
         <Cta />
-        <img src={Myself} alt='myself' />
+        <HeaderSocials/>
+        <img src={Myself} alt='myself' className='myself' />
       </div>
       <a href="#contact" className='scroll__down'>Scroll Down</a>
 
