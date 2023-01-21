@@ -51,3 +51,8 @@
 .about__pic img{
    background: var(--color-primary);
 }
+
+.about__cards{
+   display: grid;
+   grid-template-columns: ;
+}
