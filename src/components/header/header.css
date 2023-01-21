@@ -39,9 +39,56 @@ header {
 
 /* -----------Myself----------- */
 .myself {
-   background: var(--color-primary);
+   background: linear-gradient(var(--color-primary),transparent);
    width: 22rem;
    height: 30rem;
    position: absolute;
-   left: calc(50% -1);
+   left: calc(50% - 11rem);
+   margin-top: 4rem;
+   border-radius: 12rem 12rem 0rem 0rem;
+   -webkit-border-radius: 12rem 12rem 0rem 0rem;
+   -moz-border-radius: 12rem 12rem 0rem 0rem;
+   -ms-border-radius: 12rem 12rem 0rem 0rem;
+   -o-border-radius: 12rem 12rem 0rem 0rem;
+   overflow: hidden;
+   padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.myself img{
+   height: 35rem;
+   padding-bottom: 19rem;
+   width: 15rem;
+}
+
+/* ----------Scroll Down-------------- */
+.scroll__down{
+   position: absolute;
+   right: -2.3rem;
+   bottom: 5rem;
+   transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   font-weight: 300;
+   font-size: 0.9rem;
+}
+
+/* -------------Medium Device Responsive--------- */
+@media screen and (max-width:1024px) {
+   header{
+      height: 68vh;
+   }
+}
+
+
+/* -------------Small Device Responsive--------- */
+@media screen and (max-width:600px) {
+   header{
+      height: 100vh;
+   }
+
+   .header__socials, .scroll__down{
+      display: none;
+   }
 }
