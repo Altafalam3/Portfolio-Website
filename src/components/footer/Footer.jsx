@@ -21,7 +21,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://instagram.com" target='_blank' rel='noreferrer' ><FiInstagram /></a>
+        <a href="https://instagram.com/altaf_alam_687" target='_blank' rel='noreferrer' ><FiInstagram /></a>
         <a href="https://twitter.com/altaf0032" target='_blank' rel='noreferrer' ><AiFillTwitterCircle /></a>
         <a href="https://www.linkedin.com/in/altaf-alam-432849234" target='_blank' rel='noreferrer' ><BsLinkedin /></a>
         <a href="https://github.com/Altafalam3" target="_blank" rel='noreferrer'><FaGithub/></a>
