@@ -25,15 +25,13 @@ const About = () => {
               <h5>Experience</h5>
               <p className='small'>3+ Years Working</p>
             </article>
-          </div>
-          <div className="about__cards">
+
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
               <p className='small'>200+ worldwide</p>
             </article>
-          </div>
-          <div className="about__cards">
+
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
@@ -41,7 +39,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>
+          <p className='about__para'>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos exercitationem error nobis. Ratione sed officiis voluptate voluptates corporis repellat, minus eligendi fugiat aliquam optio modi, repudiandae illo veniam nesciunt? Soluta?
           </p>
 

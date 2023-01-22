@@ -4,10 +4,6 @@
    gap: 15%;
 }
 
-.small{
-   font-size: small;
-}
-
 .about__myself{
    width: 100%;
    aspect-ratio: 1/1;
@@ -41,11 +37,11 @@
 }
 
 .about__pic:hover{
-   transform: rotate(0);
-   -webkit-transform: rotate(0);
-   -moz-transform: rotate(0);
-   -ms-transform: rotate(0);
-   -o-transform: rotate(0);
+   transform:rotate(0);
+   -webkit-transform:rotate(0);
+   -moz-transform:rotate(0);
+   -ms-transform:rotate(0);
+   -o-transform:rotate(0);
 }
 
 .about__pic img{
@@ -54,5 +50,92 @@
 
 .about__cards{
    display: grid;
-   grid-template-columns: ;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1.5rem;
+}
+
+.about__card{
+   background: var(--color-bg-variant);
+   border: 1px solid transparent;
+   border-radius: 1rem;
+   -webkit-border-radius: 1rem;
+   -moz-border-radius: 1rem;
+   -ms-border-radius: 1rem;
+   -o-border-radius: 1rem;
+   padding: 2rem;
+   text-align: center;
+   transition: var(--transition);
+   -webkit-transition: var(--transition);
+   -moz-transition: var(--transition);
+   -ms-transition: var(--transition);
+   -o-transition: var(--transition);
+}
+
+.about__card:hover{
+   background: transparent;
+   border-color: var(--color-primary-variant);
+   cursor: default;
+}
+
+.about__icon{
+   color: var(--color-primary);
+   font-size: 1.4rem;
+   margin-top: 1rem;
+}
+
+.about__card h5{
+   font-size: 0.95rem;
+}
+
+
+.small{
+   font-size: 0.7rem;
+   color: var(--color-light);
+}
+
+.about__para{
+   margin: 2rem 0 2.6rem 0;
+   color: var(--color-light);
+}
+
+/* -------------Medium Device Responsive--------- */
+@media screen and (max-width:1024px) {
+   .about__container{
+      grid-template-columns: 1fr;
+      gap: 0;
+   }
+
+   .about__myself{
+      width: 50%;
+      margin: 2rem auto 4rem;
+   }
+
+   .about__para{
+      margin: 1rem 0 1.5rem;
+   }
+}
+
+
+/* -------------Small Device Responsive--------- */
+@media screen and (max-width:600px) {
+   section{
+      height: 110vh;
+   }
+   .about__myself{
+      width: 65%;
+      margin: 0 auto 3rem;
+   }
+
+   .about__cards{
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+   }
+
+   .about__content{
+      text-align: center;
+   }
+
+   .about__para{
+      margin: 1.5rem 0;
+   }
 }
