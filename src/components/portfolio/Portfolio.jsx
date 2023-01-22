@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/Portfolio1.png'
 import IMG2 from '../../assets/Portfolio2.png'
 import IMG3 from '../../assets/Portfolio3.png'
-// import IMG4 from '../../assets/Portfolio4.png'
+import IMG4 from '../../assets/Portfolio4.png'
 // import IMG5 from '../../assets/Portfolio5.png'
 // import IMG6 from '../../assets/Portfolio6.png'
 
@@ -18,23 +18,23 @@ const data =[
   {
     id:2,
     image:IMG2,
-    title:'Spotify Landing Page',
-    github: 'https://github.com/Altafalam3/Spotify_clone',
-    demo: 'https://altafalam3.github.io/Spotify_clone/'
+    title:'Expense Tracker',
+    github:'https://github.com/Altafalam3/Expense-Tracker',
+    demo: 'https://altafalam3.github.io/Expense-Tracker/'
   },
   {
     id:3,
     image:IMG3,
-    title:'Spotify Landing Page',
-    github: 'https://github.com/Altafalam3/Spotify_clone',
-    demo: 'https://altafalam3.github.io/Spotify_clone/'
+    title:'Swaniti',
+    github: 'https://github.com/Altafalam3/Swaniti-PROJECT',
+    demo: 'https://altafalam3.github.io/Swaniti-PROJECT/LP/index.html'
   },
   {
     id:4,
-    image:IMG1,
-    title:'Spotify Landing Page',
-    github: 'https://github.com/Altafalam3/Spotify_clone',
-    demo: 'https://altafalam3.github.io/Spotify_clone/'
+    image:IMG4,
+    title:'Guess the Number with Voice',
+    github: 'https://github.com/Altafalam3/Guess-the-number-with-voice-assistant',
+    demo: 'https://github.com/Altafalam3/Guess-the-number-with-voice-assistant/blob/main/README.md'
   },
   {
     id:5,

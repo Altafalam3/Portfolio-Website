@@ -23,24 +23,27 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <p className='small'>3+ Years Working</p>
+              <p className='small'>1+ Years</p>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <p className='small'>200+ worldwide</p>
+              <p className='small'>Coming Soon</p>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <p className='small'>10+ Completed</p>
+              <p className='small'>5+ Completed</p>
             </article>
           </div>
 
           <p className='about__para'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos exercitationem error nobis. Ratione sed officiis voluptate voluptates corporis repellat, minus eligendi fugiat aliquam optio modi, repudiandae illo veniam nesciunt? Soluta?
+            I love exploring new things. I am looking forward to do
+            more in Web development, also started with competitive
+            programming.I am also interested in Python further datascience
+            or Ai/ml.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
