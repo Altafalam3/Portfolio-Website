@@ -46,10 +46,6 @@ header {
    left: calc(50% - 11rem);
    margin-top: 4rem;
    border-radius: 12rem 12rem 0rem 0rem;
-   -webkit-border-radius: 12rem 12rem 0rem 0rem;
-   -moz-border-radius: 12rem 12rem 0rem 0rem;
-   -ms-border-radius: 12rem 12rem 0rem 0rem;
-   -o-border-radius: 12rem 12rem 0rem 0rem;
    overflow: hidden;
    padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
@@ -66,10 +62,6 @@ header {
    right: -2.3rem;
    bottom: 5rem;
    transform: rotate(90deg);
-   -webkit-transform: rotate(90deg);
-   -moz-transform: rotate(90deg);
-   -ms-transform: rotate(90deg);
-   -o-transform: rotate(90deg);
    font-weight: 300;
    font-size: 0.9rem;
 }

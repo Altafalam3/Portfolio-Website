@@ -22,7 +22,7 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 }
 
 html {
@@ -38,7 +38,6 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  /* background-image: url(../src/assets/myself.jpeg); */
 }
 
 /* -------------General Styles------------- */
@@ -61,7 +60,6 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 section>h2 {
@@ -82,10 +80,6 @@ section>h5 {
 a {
   color: var(--color-primary);
   transition: var(--transition);
-  -webkit-transition: var(--transition);
-  -moz-transition: var(--transition);
-  -ms-transition: var(--transition);
-  -o-transition: var(--transition);
 }
 
 a:hover {
@@ -101,14 +95,6 @@ a:hover {
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
-  -webkit-border-radius: 0.4rem;
-  -moz-border-radius: 0.4rem;
-  -ms-border-radius: 0.4rem;
-  -o-border-radius: 0.4rem;
-  -webkit-transition: var(--transition);
-  -moz-transition: var(--transition);
-  -ms-transition: var(--transition);
-  -o-transition: var(--transition);
 }
 
 .btn:hover {

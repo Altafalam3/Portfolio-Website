@@ -8,10 +8,6 @@
    width: 100%;
    aspect-ratio: 1/1;
    border-radius: 2rem;
-   -webkit-border-radius: 2rem;
-   -moz-border-radius: 2rem;
-   -ms-border-radius: 2rem;
-   -o-border-radius: 2rem;
    background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
    display: grid;
    place-items: center;
@@ -19,29 +15,13 @@
 
 .about__pic{
    border-radius: 2rem;
-   -webkit-border-radius: 2rem;
-   -moz-border-radius: 2rem;
-   -ms-border-radius: 2rem;
-   -o-border-radius: 2rem;
    overflow: hidden;
    transform: rotate(10deg);
-   -webkit-transform: rotate(10deg);
-   -moz-transform: rotate(10deg);
-   -ms-transform: rotate(10deg);
-   -o-transform: rotate(10deg);
    transition: var(--transition);
-   -webkit-transition: var(--transition);
-   -moz-transition: var(--transition);
-   -ms-transition: var(--transition);
-   -o-transition: var(--transition);
 }
 
 .about__pic:hover{
    transform:rotate(0);
-   -webkit-transform:rotate(0);
-   -moz-transform:rotate(0);
-   -ms-transform:rotate(0);
-   -o-transform:rotate(0);
 }
 
 .about__pic img{
@@ -58,17 +38,9 @@
    background: var(--color-bg-variant);
    border: 1px solid transparent;
    border-radius: 1rem;
-   -webkit-border-radius: 1rem;
-   -moz-border-radius: 1rem;
-   -ms-border-radius: 1rem;
-   -o-border-radius: 1rem;
    padding: 2rem;
    text-align: center;
    transition: var(--transition);
-   -webkit-transition: var(--transition);
-   -moz-transition: var(--transition);
-   -ms-transition: var(--transition);
-   -o-transition: var(--transition);
 }
 
 .about__card:hover{
@@ -118,9 +90,6 @@
 
 /* -------------Small Device Responsive--------- */
 @media screen and (max-width:600px) {
-   section{
-      height: 110vh;
-   }
    .about__myself{
       width: 65%;
       margin: 0 auto 3rem;
