@@ -3,7 +3,7 @@ import './footer.css'
 import { BsLinkedin } from 'react-icons/bs'
 import { AiFillTwitterCircle } from 'react-icons/ai'
 import { FiInstagram } from 'react-icons/fi'
-import {FaGithub} from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
         <a href="https://instagram.com/altaf_alam_687" target='_blank' rel='noreferrer' ><FiInstagram /></a>
         <a href="https://twitter.com/altaf0032" target='_blank' rel='noreferrer' ><AiFillTwitterCircle /></a>
         <a href="https://www.linkedin.com/in/altaf-alam-432849234" target='_blank' rel='noreferrer' ><BsLinkedin /></a>
-        <a href="https://github.com/Altafalam3" target="_blank" rel='noreferrer'><FaGithub/></a>
+        <a href="https://github.com/Altafalam3" target="_blank" rel='noreferrer' ><FaGithub /></a>
       </div>
 
       <div className="footer__copyright">
