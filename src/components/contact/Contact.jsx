@@ -1,10 +1,29 @@
 import React from 'react'
 import './contact.css'
-import {MdOutlineEmail} from 'react-icons/md'
-import {BsLinkedin} from 'react-icons/bs'
-import {AiFillTwitterCircle} from 'react-icons/ai'
+import { MdOutlineEmail } from 'react-icons/md'
+import { BsLinkedin } from 'react-icons/bs'
+import { AiFillTwitterCircle } from 'react-icons/ai'
+import { useState } from 'react'
+import Auth from '../../validation/Auth'
 
 const Contact = () => {
+
+  const [user, setUser] = useState({
+    name: "", email: "", message: ""
+  });
+
+  const handleInputs = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    // console.log(name, value);
+
+    setUser({ ...user, [name]: value });
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  }
+
   return (
     <section id='contact'>
       <h5>Get in Touch</h5>
@@ -35,11 +54,20 @@ const Contact = () => {
         </div>
 
         {/* Contact form */}
-        <form action="#" method="post" enctype="text/plain" className='cform'>
-          <input type="text" name='name' placeholder='Your full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
-          <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
-          <button type='button' className='btn btn-primary'>Send Message</button>
+        <form method='POST' className='cform'>
+          <input type="text" name='name' placeholder='Your full Name' required
+            value={user.name}
+            onChange={handleInputs}
+          />
+          <input type="email" name='email' placeholder='Your Email' required
+            value={user.email}
+            onChange={handleInputs}
+          />
+          <textarea name="message" rows="7" placeholder='Your Message' required
+            value={user.message}
+            onChange={handleInputs}
+          ></textarea>
+          <button type='submit' className='btn btn-primary' onClick={handleSubmit}>Send Message</button>
         </form>
       </div>
     </section>
