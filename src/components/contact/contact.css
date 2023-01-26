@@ -47,14 +47,18 @@
    gap: 1.2rem;
 }
 
-.cform input,
-textarea {
+.cinputs{
    width: 100%;
    padding: 1.5rem;
    border-radius: 0.5rem;
    background: transparent;
    border: 2px solid var(--color-primary-variant);
    color: var(--color-white);
+   transition: var(--transition);
+}
+
+.cinputs:hover{
+   background: var(--color-bg-variant);
 }
 
 /* -------------Medium Device Responsive--------- */

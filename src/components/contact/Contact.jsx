@@ -15,13 +15,12 @@ const Contact = () => {
   const handleInputs = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-    // console.log(name, value);
 
     setUser({ ...user, [name]: value });
   }
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
   }
 
   return (
@@ -58,14 +57,17 @@ const Contact = () => {
           <input type="text" name='name' placeholder='Your full Name' required
             value={user.name}
             onChange={handleInputs}
+            className='cinputs'
           />
           <input type="email" name='email' placeholder='Your Email' required
             value={user.email}
             onChange={handleInputs}
+            className='cinputs'
           />
           <textarea name="message" rows="7" placeholder='Your Message' required
             value={user.message}
             onChange={handleInputs}
+            className='cinputs'
           ></textarea>
           <button type='submit' className='btn btn-primary' onClick={handleSubmit}>Send Message</button>
         </form>

@@ -32,6 +32,10 @@
    margin-top: 1rem;
 }
 
+.sml{
+   font-size: small;
+}
+
 /* -------------Medium Device Responsive--------- */
 @media screen and (max-width:1024px) {
    .portfolio__container{
