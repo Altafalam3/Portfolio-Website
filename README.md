@@ -7,13 +7,13 @@ This Portfolio Website is made using ReactJS , Css3.
 open terminal and type
 
 ```
-git clone https://github.com/Altafalam3/TODO-LIST.git
+git clone https://github.com/Altafalam3/Portfolio-Website.git
 ```
 
 or you can download using the url below
 
 ```
-https://github.com/Altafalam3/TODO-LIST.git
+https://github.com/Altafalam3/Portfolio-Website.git
 ```
 ## Frontend ( React )
 
