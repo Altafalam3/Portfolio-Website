@@ -4,7 +4,7 @@ import IMG1 from '../../assets/Portfolio1.png'
 import IMG2 from '../../assets/Portfolio2.png'
 import IMG3 from '../../assets/Portfolio3.png'
 import IMG4 from '../../assets/Portfolio4.png'
-// import IMG5 from '../../assets/Portfolio5.png'
+import IMG5 from '../../assets/Portfolio5.png'
 // import IMG6 from '../../assets/Portfolio6.png'
 
 const data =[
@@ -38,10 +38,10 @@ const data =[
   },
   {
     id:5,
-    image:IMG1,
-    title:'Spotify Landing Page',
-    github: 'https://github.com/Altafalam3/Spotify_clone',
-    demo: 'https://altafalam3.github.io/Spotify_clone/'
+    image:IMG5,
+    title:'EcoSavvy',
+    github: 'https://github.com/Altafalam3/EcoSavvy',
+    demo: 'https://github.com/Altafalam3/EcoSavvy/blob/main/README.md'
   },
   {
     id:6,

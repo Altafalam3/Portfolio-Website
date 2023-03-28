@@ -18,15 +18,15 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Flask Django for backend.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Web Scraping.</p>
+              <p>Django backend with reactjs frontend.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Automation Projects.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Web Scraping.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -60,7 +60,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>UI /UX design for website.</p>
+              <p>Modern React Websites.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
