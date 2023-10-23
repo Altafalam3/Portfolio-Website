@@ -18,7 +18,7 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Django backend with reactjs frontend.</p>
+              <p>Flask/ django backend with reactjs frontend.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -52,6 +52,10 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
+              <p>Backend development.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
               <p>Business Websites.</p>
             </li>
             <li>
@@ -62,14 +66,10 @@ const Services = () => {
               <BiCheck className='service__list-icon'/>
               <p>Modern React Websites.</p>
             </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Database management of website.</p>
-            </li>
           </ul>
         </article>
 
-        {/* Technical Talks */}
+        {/* Java Developer */}
         <article className='service'>
           <div className="service__head">
             <h3>Java Developer</h3>

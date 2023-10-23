@@ -52,7 +52,8 @@ header {
 
 .myself img{
    height: 35rem;
-   padding-bottom: 19rem;
+   padding-bottom: 15rem;
+   padding-left: 2rem;
    width: 15rem;
 }
 

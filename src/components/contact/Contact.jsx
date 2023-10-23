@@ -4,7 +4,11 @@ import { MdOutlineEmail } from 'react-icons/md'
 import { BsLinkedin } from 'react-icons/bs'
 import { AiFillTwitterCircle } from 'react-icons/ai'
 import { useState } from 'react'
-import Auth from '../../validation/Auth'
+// import Auth from '../../validation/Auth'
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Contact = () => {
 
@@ -20,7 +24,21 @@ const Contact = () => {
   }
 
   const handleSubmit = (e) => {
-    // e.preventDefault();
+    e.preventDefault();
+    toast.success("Contact Form Submitted", {
+      position: "bottom-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+
+    setUser({
+      name: "", email: "", message: ""
+    });
   }
 
   return (
@@ -53,7 +71,7 @@ const Contact = () => {
         </div>
 
         {/* Contact form */}
-        <form method='POST' className='cform'>
+        <form className='cform' onSubmit={handleSubmit}>
           <input type="text" name='name' placeholder='Your full Name' required
             value={user.name}
             onChange={handleInputs}
@@ -69,9 +87,23 @@ const Contact = () => {
             onChange={handleInputs}
             className='cinputs'
           ></textarea>
-          <button type='submit' className='btn btn-primary' onClick={handleSubmit}>Send Message</button>
+          <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>
+
+      <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
+
     </section>
   )
 }

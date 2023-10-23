@@ -5,20 +5,20 @@ import { BsPatchCheckFill } from 'react-icons/bs'
 // Web dev skills
 const webdev = [
   {
-    lang: 'REACT JS',
+    lang: 'MERN Stack',
+    level: 'Experienced'
+  },
+  {
+    lang: 'Flask',
+    level: 'Experienced'
+  },
+  {
+    lang: 'HTML & CSS',
     level: 'Experienced'
   },
   {
     lang: 'Django',
-    level: 'Experienced'
-  },
-  {
-    lang: 'HTML5',
-    level: 'Experienced'
-  },
-  {
-    lang: 'CSS3',
-    level: 'Experienced'
+    level: 'Moderate'
   },
   {
     lang: 'JAVASCRIPT',
@@ -26,7 +26,7 @@ const webdev = [
   },
   {
     lang: 'MYSQL',
-    level: 'Experienced'
+    level: 'Moderate'
   },
 ];
 
@@ -46,7 +46,7 @@ const languages = [
   },
   {
     lang: 'JAVA',
-    level: 'Experienced'
+    level: 'Moderate'
   }
 
 ];

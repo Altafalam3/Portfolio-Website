@@ -1,6 +1,7 @@
 import React from 'react'
-import Resume from '../../assets/Resume.pdf'
-const Cta = () => {
+import Resume from '../../assets/Altaf_Resume.pdf'
+
+const CallToAction = () => {
   return (
     <div className='cta'>
       <a href={Resume} download className='btn'>Download Resume</a>
@@ -9,4 +10,4 @@ const Cta = () => {
   )
 }
 
-export default Cta
+export default CallToAction

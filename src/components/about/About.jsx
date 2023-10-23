@@ -35,15 +35,14 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <p className='small'>5+ Completed</p>
+              <p className='small'>15+ Completed</p>
             </article>
           </div>
 
           <p className='about__para'>
-            I love exploring new things. I am looking forward to do
-            more in Web development, also started with competitive
-            programming.I am also interested in Python further datascience
-            or Ai/ml.
+            I am a third year engineering student with a strong passion for web development. I feel particularly comfortable working with the MERN Stack. Lately, I've been using Flask to seamlessly integrate AI and ML models with frontend applications, and this intersection of web development and AI has greatly captured my interest.
+            <br />
+            I have also been actively solving over 100 LeetCode questions and participating in coding contests.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
