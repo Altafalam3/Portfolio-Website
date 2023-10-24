@@ -1,6 +1,6 @@
 header {
    height: 100vh;
-   padding-top: 7rem;
+   padding-top: 5rem;
    overflow: hidden;
 }
 
@@ -10,6 +10,12 @@ header {
    position: relative;
 }
 
+
+.title_skill{
+   height: 2rem;
+   font-weight: bolder;
+   color: rgb(235, 123, 123);
+}
 /* --------------Cta-------------- */
 
 .cta {

@@ -4,7 +4,6 @@ import { MdOutlineEmail } from 'react-icons/md'
 import { BsLinkedin } from 'react-icons/bs'
 import { AiFillTwitterCircle } from 'react-icons/ai'
 import { useState } from 'react'
-// import Auth from '../../validation/Auth'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

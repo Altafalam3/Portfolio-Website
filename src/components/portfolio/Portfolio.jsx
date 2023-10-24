@@ -5,50 +5,50 @@ import IMG2 from '../../assets/Portfolio2.png'
 import IMG3 from '../../assets/Portfolio3.png'
 import IMG4 from '../../assets/Portfolio4.png'
 import IMG5 from '../../assets/Portfolio5.png'
-// import IMG6 from '../../assets/Portfolio6.png'
+import IMG6 from '../../assets/Portfolio6.png'
 
 const data =[
   {
     id:1,
-    image:IMG1,
-    title:'Spotify Landing Page',
-    github: 'https://github.com/Altafalam3/Spotify_clone',
-    demo: 'https://altafalam3.github.io/Spotify_clone/'
-  },
-  {
-    id:2,
-    image:IMG2,
-    title:'Expense Tracker',
-    github:'https://github.com/Altafalam3/Expense-Tracker',
-    demo: 'https://altafalam3.github.io/Expense-Tracker/'
-  },
-  {
-    id:3,
-    image:IMG3,
-    title:'Swaniti',
-    github: 'https://github.com/Altafalam3/Swaniti-PROJECT',
-    demo: 'https://altafalam3.github.io/Swaniti-PROJECT/LP/index.html'
-  },
-  {
-    id:4,
-    image:IMG4,
-    title:'Guess the Number with Voice',
-    github: 'https://github.com/Altafalam3/Guess-the-number-with-voice-assistant',
-    demo: 'https://github.com/Altafalam3/Guess-the-number-with-voice-assistant/blob/main/README.md'
-  },
-  {
-    id:5,
     image:IMG5,
     title:'EcoSavvy',
     github: 'https://github.com/Altafalam3/EcoSavvy',
     demo: 'https://github.com/Altafalam3/EcoSavvy/blob/main/README.md'
   },
   {
-    id:6,
+    id:2,
+    image:IMG2,
+    title:'PhishNet',
+    github:'https://github.com/Altafalam3/PhishNet',
+    demo: 'https://github.com/Altafalam3/PhishNet/blob/main/README.md'
+  },
+  {
+    id:3,
     image:IMG1,
-    title:'Spotify Landing Page',
-    github: 'https://github.com/Altafalam3/Spotify_clone',
-    demo: 'https://altafalam3.github.io/Spotify_clone/'
+    title:'SmartLegalX',
+    github: 'https://github.com/Altafalam3/SmartLegalX',
+    demo: 'https://github.com/Altafalam3/SmartLegalX/blob/main/README.md'
+  },
+  {
+    id:4,
+    image:IMG4,
+    title:'Synopsize',
+    github: 'https://github.com/Altafalam3/Synopsize',
+    demo: 'https://github.com/Altafalam3/Synopsize/blob/main/README.md'
+  },
+  {
+    id:5,
+    image:IMG6,
+    title:'NO - SPAM',
+    github: 'https://github.com/Altafalam3/NO-SPAM/',
+    demo: 'https://github.com/Altafalam3/NO-SPAM/blob/main/README.md'
+  },
+  {
+    id:6,
+    image:IMG3,
+    title:'Swaniti',
+    github: 'https://github.com/Altafalam3/Swaniti-PROJECT',
+    demo: 'https://altafalam3.github.io/Swaniti-PROJECT/LP/index.html'
   },
 ];
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
             return(
               <article key={props.id} className='portfolio__item'>
               <div className="portfolio__item-image">
-                <img src={props.image} alt={props.title} />
+                <img src={props.image} alt={props.title} className="portfolio__item-img"/>
               </div>
               <h3>{props.title}</h3>
               <div className="portfolio__item-cta">

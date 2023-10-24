@@ -18,7 +18,7 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Flask/ django backend with reactjs frontend.</p>
+              <p>Flask / Django backend.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
