@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.ab073e70.css",
-    "main.js": "/Portfolio-Website/static/js/main.3bf92fff.js",
+    "main.css": "/Portfolio-Website/static/css/main.512cb8cb.css",
+    "main.js": "/Portfolio-Website/static/js/main.3985c797.js",
     "static/media/Portfolio5.png": "/Portfolio-Website/static/media/Portfolio5.a5ac0bb30ab19ecfa160.png",
     "static/media/Portfolio3.png": "/Portfolio-Website/static/media/Portfolio3.8235b675a1c4bfad9935.png",
-    "static/media/Resume.pdf": "/Portfolio-Website/static/media/Resume.b4c7c2daa1d28a0c1b31.pdf",
     "static/media/Portfolio1.png": "/Portfolio-Website/static/media/Portfolio1.439f200dbabcf7cb8d73.png",
     "static/media/Portfolio4.png": "/Portfolio-Website/static/media/Portfolio4.00b814202e3cd5c8ded1.png",
     "static/media/Myself.png": "/Portfolio-Website/static/media/Myself.b9e76c780da307952f0f.png",
+    "static/media/Altaf_Resume.pdf": "/Portfolio-Website/static/media/Altaf_Resume.4df4a66f1f7aea8389e9.pdf",
     "static/media/Portfolio2.png": "/Portfolio-Website/static/media/Portfolio2.e822eee489408186ece8.png",
+    "static/media/Myself4.png": "/Portfolio-Website/static/media/Myself4.24329d78f4e4fc7c716a.png",
     "index.html": "/Portfolio-Website/index.html",
-    "main.ab073e70.css.map": "/Portfolio-Website/static/css/main.ab073e70.css.map",
-    "main.3bf92fff.js.map": "/Portfolio-Website/static/js/main.3bf92fff.js.map"
+    "main.512cb8cb.css.map": "/Portfolio-Website/static/css/main.512cb8cb.css.map",
+    "main.3985c797.js.map": "/Portfolio-Website/static/js/main.3985c797.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab073e70.css",
-    "static/js/main.3bf92fff.js"
+    "static/css/main.512cb8cb.css",
+    "static/js/main.3985c797.js"
   ]
 }
