@@ -60,13 +60,13 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Altaf Alam</h1>
+        <h5>Hello I am</h5>
+        <h1 className="title_name">Altaf Alam</h1>
         <h3 className='title_skill'>{displayText}</h3>
         <CallToAction />
         <HeaderSocials />
         <div className="myself">
-          <img src={Myself} alt='myself' x="50" y="200" />
+          <img src={Myself} alt='myself' />
         </div>
       </div>
       <a href="#contact" className='scroll__down'>

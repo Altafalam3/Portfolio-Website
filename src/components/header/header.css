@@ -11,11 +11,37 @@ header {
 }
 
 
-.title_skill{
+.title_skill {
    height: 2rem;
    font-weight: bolder;
    color: rgb(235, 123, 123);
 }
+
+.title_name {
+   color: #d0d4f9;
+   font-weight: bolder;
+   animation: fadeInRight 2s ease;
+   -webkit-animation: fadeInRight 2s ease;
+}
+
+@keyframes fadeInRight {
+   0% {
+      opacity: 0;
+      transform: translateX(-100px);
+      -webkit-transform: translateX(-100px);
+      -moz-transform: translateX(-100px);
+      -ms-transform: translateX(-100px);
+      -o-transform: translateX(-100px);
+   }
+
+   100% {
+      opacity: 1;
+      transform: translateX(0);
+      /* Bring the text to its original position */
+   }
+}
+
+
 /* --------------Cta-------------- */
 
 .cta {
@@ -34,6 +60,8 @@ header {
    gap: 1rem;
    left: 0;
    bottom: 3rem;
+   animation: fadeInDown2 2s ease;
+   -webkit-animation: fadeInDown2 2s ease;
 }
 
 .header__socials::after {
@@ -45,7 +73,7 @@ header {
 
 /* -----------Myself----------- */
 .myself {
-   background: linear-gradient(var(--color-primary),transparent);
+   background: linear-gradient(var(--color-primary), transparent);
    width: 22rem;
    height: 30rem;
    position: absolute;
@@ -54,17 +82,52 @@ header {
    border-radius: 12rem 12rem 0rem 0rem;
    overflow: hidden;
    padding: 5rem 1.5rem 1.5rem 1.5rem;
+   animation: fadeInDown 1s ease;
+   /* Apply the fadeInDown animation */
 }
 
-.myself img{
+.myself img {
    height: 35rem;
    padding-bottom: 15rem;
    padding-left: 2rem;
    width: 15rem;
+   animation: fadeInDown 1s ease;
+   /* Apply the fadeInDown animation */
 }
 
+@keyframes fadeInDown {
+   0% {
+      opacity: 0;
+      transform: translateY(-20px);
+   }
+
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+@keyframes fadeInDown2 {
+   0% {
+      opacity: 0;
+      transform: translateY(-80px);
+      -webkit-transform: translateY(-80px);
+      -moz-transform: translateY(-80px);
+      -ms-transform: translateY(-80px);
+      -o-transform: translateY(-80px);
+   }
+
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+
+
+
 /* ----------Scroll Down-------------- */
-.scroll__down{
+.scroll__down {
    position: absolute;
    right: -2.3rem;
    bottom: 5rem;
@@ -75,7 +138,7 @@ header {
 
 /* -------------Medium Device Responsive--------- */
 @media screen and (max-width:1024px) {
-   header{
+   header {
       height: 68vh;
    }
 }
@@ -83,11 +146,12 @@ header {
 
 /* -------------Small Device Responsive--------- */
 @media screen and (max-width:600px) {
-   header{
+   header {
       height: 100vh;
    }
 
-   .header__socials, .scroll__down{
+   .header__socials,
+   .scroll__down {
       display: none;
    }
 }
