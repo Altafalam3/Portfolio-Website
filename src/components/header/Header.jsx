@@ -60,7 +60,7 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I am</h5>
+        <h5>Hello I'm</h5>
         <h1 className="title_name">Altaf Alam</h1>
         <h3 className='title_skill'>{displayText}</h3>
         <CallToAction />
