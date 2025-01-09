@@ -24,6 +24,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     toast.success("Contact Form Submitted", {
       position: "bottom-right",
       autoClose: 5000,

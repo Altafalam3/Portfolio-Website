@@ -23,13 +23,13 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <p className='small'>1+ Years</p>
+              <p className='small'>2+ Years</p>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <p className='small'>Coming Soon</p>
+              <p className='small'>3</p>
             </article>
 
             <article className='about__card'>
@@ -40,9 +40,9 @@ const About = () => {
           </div>
 
           <p className='about__para'>
-            I am a third year engineering student with a strong passion for web development. I feel particularly comfortable working with the MERN Stack. Lately, I've been using Flask to seamlessly integrate AI and ML models with frontend applications, and this intersection of web development and AI has greatly captured my interest.
+            I am a final year engineering student with a strong passion for web development. I feel particularly comfortable working with the MERN Stack. Lately, I've been using Flask to seamlessly integrate AI and ML models with frontend applications, and this intersection of web development and AI has greatly captured my interest.
             <br />
-            I have also been actively solving over 100 LeetCode questions and participating in coding contests.
+            I have also been actively solving over 450 LeetCode questions and participating in coding contests.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

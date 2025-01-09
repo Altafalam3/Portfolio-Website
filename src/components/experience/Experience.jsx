@@ -48,7 +48,6 @@ const languages = [
     lang: 'JAVA',
     level: 'Moderate'
   }
-
 ];
 
 const Experience = () => {

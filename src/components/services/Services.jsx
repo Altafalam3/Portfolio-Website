@@ -64,37 +64,37 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Modern React Websites.</p>
+              <p>Website Maintainence.</p>
             </li>
           </ul>
         </article>
 
-        {/* Java Developer */}
+        {/* AIML Developer */}
         <article className='service'>
           <div className="service__head">
-            <h3>Java Developer</h3>
+            <h3>AIML Developer</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>App using Swing Framework.</p>
+              <p>Chatbot using LLMs.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>App using Javafx Framework.</p>
+              <p>Machine Learning Models.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>User friendly apps with backend.</p>
+              <p>Multi Agent System using Autogen.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Develop and test software.</p>
+              <p>Deep Learning Projects.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>App using Java Awt.</p>
+              <p>GenAI based projects.</p>
             </li>
           </ul>
         </article>

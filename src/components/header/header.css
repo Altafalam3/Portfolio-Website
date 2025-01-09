@@ -129,7 +129,7 @@ header {
 /* ----------Scroll Down-------------- */
 .scroll__down {
    position: absolute;
-   right: -2.3rem;
+   right: -1.5rem;
    bottom: 5rem;
    transform: rotate(90deg);
    font-weight: 300;
