@@ -55,7 +55,7 @@ const Header = () => {
     } else {
       clearText(); // Start clearing effect
     }
-  }, [textIndex, isTyping]);
+  }, [textIndex, isTyping, displayText, textOptions]);
 
   return (
     <header>
